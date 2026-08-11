@@ -127,6 +127,7 @@ After completing this repository, I transitioned to **C++** to study:
 * Algorithms
 * Recursion
 * Dynamic Programming
+* OOPs
 * LeetCode Problem Solving
 
 ---
