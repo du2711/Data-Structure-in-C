@@ -11,12 +11,10 @@ int main()
     printf("Enter Breadth: ");
     scanf("%d" , &b);
 
-    if(area>perimeter)
-    {
+    if(area>perimeter){
         printf("area is greater than perimeter ");
     }
-    else
-    {
+    else{
         printf("perimter is  greater than area");
     }
 
