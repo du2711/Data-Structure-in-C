@@ -1,4 +1,15 @@
 #include <stdio.h>
+void sort(int arr[],int n){
+    for(int i=0;i<n-1;i++){
+        for(int j=0;j<n-1-i;j++){
+            if(arr[j]>arr[j+1]){
+                int temp=arr[j];
+                arr[j]=arr[j+1];
+                arr[j+1]=temp;
+            }
+        }
+    }
+}
 void sumPair(int arr[],int n, int t){
     arr[n];
     int p=0;
@@ -42,6 +53,7 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
+    sort(arr,n);
     // for(int i=n-1;i>=0;i--){
     //     printf("%d ",arr[i]);
     // }
