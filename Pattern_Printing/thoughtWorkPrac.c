@@ -40,6 +40,18 @@ void pat3(int n){
     }
 }
 
+void pat4(int n){
+    for(int i=1;i<=n;i++){
+        for(int j=1;j<=i;j++){
+            printf("%d ",j);
+        }
+        for(int k=i-1;k>=1;k--){
+            printf("%d ",k);
+        }
+        printf("\n");
+    }
+}
+
 int main(){
     int n;
     printf("Entre n: ");
@@ -50,5 +62,6 @@ int main(){
     printf("\n");
     pat3(n);
     printf("\n");
+    pat4(n);
     return 0;
 }
