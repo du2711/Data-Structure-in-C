@@ -1,5 +1,14 @@
 #include <stdio.h>
 
+int hcf(int a,int b){
+    while(b>0){
+        int temp=a%b;
+        a=b;
+        b=temp;
+    }
+    return a;
+}
+
 void pat1(int n){
     for(int i=1;i<n+1;i++){
         for(int j=1;j<=i;j++){
