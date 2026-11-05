@@ -10,6 +10,7 @@ This repository documents my journey of learning **C programming** from the fund
 After completing topics up to **Sorting Algorithms**, I transitioned to **C++** to continue my journey in **Data Structures & Algorithms (DSA)** and competitive programming.
 
 Although this repository is no longer actively updated, it serves as a reference for beginners learning C.
+Will Update if any update is available.
 
 ---
 
